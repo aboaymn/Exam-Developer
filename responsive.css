@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  #quiz-container, .tech-options, .level-options {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  #options-container button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  #progress-bar {
+    height: 15px;
+  }
+}

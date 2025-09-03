@@ -1,0 +1,71 @@
+/* الخطوط والألوان */
+body {
+  font-family: 'Tajawal', sans-serif;
+  background-color: #f5f6fa;
+  color: #2f3640;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: right;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #0097e6;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #00a8ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0097e6;
+}
+
+/* الحاويات */
+#quiz-container, .tech-options, .level-options {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#options-container button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* شريط التقدم */
+#progress-bar {
+  height: 20px;
+  background-color: #dcdde1;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#progress-bar div {
+  height: 100%;
+  width: 0%;
+  background-color: #00a8ff;
+  transition: width 0.3s;
+}
+
+/* العداد */
+#timer {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #e84118;
+}
